@@ -71,6 +71,7 @@ struct SearchRideTileView: View {
                             Text("Arrival")
                         }
                     } label: {
+                        // TODO: Make this work without glitch!
                         switch (depArrSel) {
                         case DepArrSel.arrival:
                             DropdownSelectorView(label: "Arrival")
