@@ -7,25 +7,48 @@
 
 import SwiftUI
 
+enum DepArrSel {
+    case departure, arrival
+}
+
 struct DropdownSelectorView: View {
     
-    var label: String = "Departure"
+    @State var selector: DepArrSel = .departure
     
     var body: some View {
-        VStack {
-            HStack {
-                Image(systemName: "chevron.down")
-                    .opacity(0.5)
-                Text(label)
+        
+        Menu {
+            Button {
+                selector = .departure
+            } label: {
+                Text("Departure")
             }
-            .padding(EdgeInsets(top: 7, leading: 10, bottom: 7, trailing: 15))
-            .background(Color(red: 0.2, green: 0.2, blue: 0.21))
-            .cornerRadius(10)
-            /*.overlay(
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color(red: 0.36, green: 0.34, blue: 0.34), lineWidth: 2)
-            )*/
+            Button {
+                selector = .arrival
+            } label: {
+                Text("Arrival")
+            }
+        } label: {
+            // TODO: Make this work without glitch!
+            VStack {
+                HStack {
+                    Image(systemName: "chevron.down")
+                        .opacity(0.5)
+                    switch (selector) {
+                    case DepArrSel.arrival:
+                        Text("Arrival")
+                    case DepArrSel.departure:
+                        Text("Departure")
+                    }
+                }
+                .padding(EdgeInsets(top: 7, leading: 10, bottom: 7, trailing: 15))
+                .background(Color(red: 0.2, green: 0.2, blue: 0.21))
+                .cornerRadius(10)
+            }
+            
         }
+        
+        
     }
 }
 

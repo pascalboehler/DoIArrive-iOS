@@ -7,10 +7,6 @@
 
 import SwiftUI
 
-enum DepArrSel {
-    case departure, arrival
-}
-
 struct SearchRideTileView: View {
     
     @State var locationFrom: String = "From..."
@@ -57,29 +53,7 @@ struct SearchRideTileView: View {
                 .padding(EdgeInsets(top: 05, leading: 0, bottom: 5, trailing: 0))
                 
                 HStack {
-                    Menu {
-                        Button {
-                            print("Departure")
-                            depArrSel = .departure
-                        } label: {
-                            Text("Departure")
-                        }
-                        Button {
-                            print("Arrival")
-                            depArrSel = .arrival
-                        } label: {
-                            Text("Arrival")
-                        }
-                    } label: {
-                        // TODO: Make this work without glitch!
-                        switch (depArrSel) {
-                        case DepArrSel.arrival:
-                            DropdownSelectorView(label: "Arrival")
-                        case DepArrSel.departure:
-                            DropdownSelectorView(label: "Departure")
-                        }
-                        
-                    }
+                    DropdownSelectorView()
 
                     Spacer()
                     DatePicker("", selection: $selectedStartDate)
