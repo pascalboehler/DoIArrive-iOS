@@ -12,6 +12,8 @@ struct SearchRideTileView: View {
     @State var locationFrom: String = "From..."
     @State var locationTo: String = "To..."
     
+    @State var selectedStartDate: Date = Date.now
+    
     var body: some View {
         VStack {
             VStack {
@@ -20,8 +22,11 @@ struct SearchRideTileView: View {
                         .font(.system(.title2))
                     Spacer()
                 }
+                .padding(EdgeInsets(top: 0, leading: 0, bottom: 5, trailing: 0))
+                
                 Divider()
                     .background(Color(red: 0.25, green: 0.25, blue: 0.25, opacity: 0.46))
+                
                 ZStack {
                     VStack {
                         LocationEntryButtonRounded(textToShow: locationFrom)
@@ -43,10 +48,20 @@ struct SearchRideTileView: View {
                             .frame(width: 15)
                     }
                 }
-                .padding(EdgeInsets(top: 10, leading: 0, bottom: 10, trailing: 0))
+                .padding(EdgeInsets(top: 05, leading: 0, bottom: 5, trailing: 0))
+                
+                HStack {
+                    DropdownSelectorView()
+                    Spacer()
+                    DatePicker("", selection: $selectedStartDate)
+                }.padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 0))
+                
+                Divider()
+                    .background(Color(red: 0.25, green: 0.25, blue: 0.25, opacity: 0.46))
                 LargeTextButtonRounded(action: {
                     print("Hello")
                 }, label: "Search journey")
+                .padding(EdgeInsets(top: 5, leading: 0, bottom: 0, trailing: 0))
                 
             }
             .padding()

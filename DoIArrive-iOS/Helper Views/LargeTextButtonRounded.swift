@@ -22,9 +22,9 @@ struct LargeTextButtonRounded: View {
                     .frame(width: 50)
             }
             .foregroundColor(.white)
-            .padding()
+            .padding(EdgeInsets(top: 10, leading: 15, bottom: 10, trailing: 15))
             .background(Color(red: 0.09, green: 0.08, blue: 0.4))
-            .cornerRadius(20)
+            .cornerRadius(14)
         }
     }
 }
