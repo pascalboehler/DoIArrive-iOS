@@ -19,10 +19,12 @@ struct DropdownSelectorView: View {
                 Text(label)
             }
             .padding(EdgeInsets(top: 7, leading: 10, bottom: 7, trailing: 15))
-            .overlay(
+            .background(Color(red: 0.2, green: 0.2, blue: 0.21))
+            .cornerRadius(10)
+            /*.overlay(
                 RoundedRectangle(cornerRadius: 10)
                     .stroke(Color(red: 0.36, green: 0.34, blue: 0.34), lineWidth: 2)
-            )
+            )*/
         }
     }
 }

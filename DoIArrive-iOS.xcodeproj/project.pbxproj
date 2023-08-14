@@ -113,6 +113,7 @@
 		7841C64C2A89FF8D00DAF768 /* DoIArrive-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				7841C68E2A8A1CFD00DAF768 /* Styles */,
 				7841C6842A8A062800DAF768 /* Helper Views */,
 				7841C6812A8A042600DAF768 /* Views */,
 				7841C6782A8A019300DAF768 /* Pages */,
@@ -177,6 +178,13 @@
 				7841C68B2A8A134500DAF768 /* DropdownSelectorView.swift */,
 			);
 			path = "Helper Views";
+			sourceTree = "<group>";
+		};
+		7841C68E2A8A1CFD00DAF768 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
