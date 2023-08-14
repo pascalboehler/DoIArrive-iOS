@@ -11,7 +11,8 @@ struct HomeView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("Hello world")
+                SearchRideTileView()
+                    .padding(EdgeInsets(top: 10, leading: 5, bottom: 10, trailing: 5))
             }
             .navigationTitle("Home")
         }

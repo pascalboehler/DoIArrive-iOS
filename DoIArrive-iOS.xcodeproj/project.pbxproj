@@ -17,6 +17,9 @@
 		7841C67C2A8A01BE00DAF768 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C67B2A8A01BE00DAF768 /* HomeView.swift */; };
 		7841C67E2A8A029000DAF768 /* NextRidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C67D2A8A029000DAF768 /* NextRidesView.swift */; };
 		7841C6802A8A030000DAF768 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C67F2A8A030000DAF768 /* SettingsView.swift */; };
+		7841C6832A8A043E00DAF768 /* SearchRideTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C6822A8A043E00DAF768 /* SearchRideTileView.swift */; };
+		7841C6862A8A065E00DAF768 /* LocationEntryButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C6852A8A065E00DAF768 /* LocationEntryButtonRounded.swift */; };
+		7841C6882A8A099900DAF768 /* SymbolButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C6872A8A099900DAF768 /* SymbolButtonRounded.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		7841C67B2A8A01BE00DAF768 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7841C67D2A8A029000DAF768 /* NextRidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextRidesView.swift; sourceTree = "<group>"; };
 		7841C67F2A8A030000DAF768 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7841C6822A8A043E00DAF768 /* SearchRideTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRideTileView.swift; sourceTree = "<group>"; };
+		7841C6852A8A065E00DAF768 /* LocationEntryButtonRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationEntryButtonRounded.swift; sourceTree = "<group>"; };
+		7841C6872A8A099900DAF768 /* SymbolButtonRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolButtonRounded.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		7841C64C2A89FF8D00DAF768 /* DoIArrive-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				7841C6842A8A062800DAF768 /* Helper Views */,
+				7841C6812A8A042600DAF768 /* Views */,
 				7841C6782A8A019300DAF768 /* Pages */,
 				7841C64D2A89FF8D00DAF768 /* DoIArrive_iOSApp.swift */,
 				7841C64F2A89FF8D00DAF768 /* ContentView.swift */,
@@ -144,6 +152,23 @@
 				7841C67F2A8A030000DAF768 /* SettingsView.swift */,
 			);
 			path = Pages;
+			sourceTree = "<group>";
+		};
+		7841C6812A8A042600DAF768 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7841C6822A8A043E00DAF768 /* SearchRideTileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7841C6842A8A062800DAF768 /* Helper Views */ = {
+			isa = PBXGroup;
+			children = (
+				7841C6852A8A065E00DAF768 /* LocationEntryButtonRounded.swift */,
+				7841C6872A8A099900DAF768 /* SymbolButtonRounded.swift */,
+			);
+			path = "Helper Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,8 +304,11 @@
 				7841C6802A8A030000DAF768 /* SettingsView.swift in Sources */,
 				7841C67C2A8A01BE00DAF768 /* HomeView.swift in Sources */,
 				7841C6502A89FF8D00DAF768 /* ContentView.swift in Sources */,
+				7841C6862A8A065E00DAF768 /* LocationEntryButtonRounded.swift in Sources */,
 				7841C64E2A89FF8D00DAF768 /* DoIArrive_iOSApp.swift in Sources */,
+				7841C6832A8A043E00DAF768 /* SearchRideTileView.swift in Sources */,
 				7841C67E2A8A029000DAF768 /* NextRidesView.swift in Sources */,
+				7841C6882A8A099900DAF768 /* SymbolButtonRounded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
