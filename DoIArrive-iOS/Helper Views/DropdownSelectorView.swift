@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct DropdownSelectorView: View {
+    
+    var label: String = "Departure"
+    
     var body: some View {
         VStack {
             HStack {
                 Image(systemName: "chevron.down")
                     .opacity(0.5)
-                Text("Departure")
+                Text(label)
             }
             .padding(EdgeInsets(top: 7, leading: 10, bottom: 7, trailing: 15))
             .overlay(

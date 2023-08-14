@@ -7,12 +7,18 @@
 
 import SwiftUI
 
+enum DepArrSel {
+    case departure, arrival
+}
+
 struct SearchRideTileView: View {
     
     @State var locationFrom: String = "From..."
     @State var locationTo: String = "To..."
     
     @State var selectedStartDate: Date = Date.now
+    
+    @State var depArrSel: DepArrSel = .departure
     
     var body: some View {
         VStack {
@@ -51,7 +57,29 @@ struct SearchRideTileView: View {
                 .padding(EdgeInsets(top: 05, leading: 0, bottom: 5, trailing: 0))
                 
                 HStack {
-                    DropdownSelectorView()
+                    Menu {
+                        Button {
+                            print("Departure")
+                            depArrSel = .departure
+                        } label: {
+                            Text("Departure")
+                        }
+                        Button {
+                            print("Arrival")
+                            depArrSel = .arrival
+                        } label: {
+                            Text("Arrival")
+                        }
+                    } label: {
+                        switch (depArrSel) {
+                        case DepArrSel.arrival:
+                            DropdownSelectorView(label: "Arrival")
+                        case DepArrSel.departure:
+                            DropdownSelectorView(label: "Departure")
+                        }
+                        
+                    }
+
                     Spacer()
                     DatePicker("", selection: $selectedStartDate)
                 }.padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 0))
