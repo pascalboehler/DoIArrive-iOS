@@ -23,7 +23,7 @@ struct LocationEntryButtonRounded: View {
                 }
                 .padding(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10))
                 .overlay(
-                    RoundedRectangle(cornerRadius: 14)
+                    RoundedRectangle(cornerRadius: 12)
                         .stroke(Color(red: 0.36, green: 0.34, blue: 0.34), lineWidth: 2)
                 )
             }

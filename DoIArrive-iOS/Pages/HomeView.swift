@@ -12,7 +12,8 @@ struct HomeView: View {
         NavigationStack {
             VStack {
                 SearchRideTileView()
-                    .padding(EdgeInsets(top: 10, leading: 5, bottom: 10, trailing: 5))
+                    .padding(EdgeInsets(top: 30, leading: 5, bottom: 10, trailing: 5))
+                Spacer()
             }
             .navigationTitle("Home")
         }

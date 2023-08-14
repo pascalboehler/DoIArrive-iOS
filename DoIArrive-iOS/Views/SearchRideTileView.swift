@@ -40,11 +40,13 @@ struct SearchRideTileView: View {
                             print("Swapped")
                         }
                         Spacer()
-                            .frame(width: 20)
+                            .frame(width: 15)
                     }
-                    
                 }
-                .padding(EdgeInsets(top: 10, leading: 0, bottom: 0, trailing: 0))
+                .padding(EdgeInsets(top: 10, leading: 0, bottom: 10, trailing: 0))
+                LargeTextButtonRounded(action: {
+                    print("Hello")
+                }, label: "Search journey")
                 
             }
             .padding()

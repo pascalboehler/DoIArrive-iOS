@@ -20,6 +20,7 @@
 		7841C6832A8A043E00DAF768 /* SearchRideTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C6822A8A043E00DAF768 /* SearchRideTileView.swift */; };
 		7841C6862A8A065E00DAF768 /* LocationEntryButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C6852A8A065E00DAF768 /* LocationEntryButtonRounded.swift */; };
 		7841C6882A8A099900DAF768 /* SymbolButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C6872A8A099900DAF768 /* SymbolButtonRounded.swift */; };
+		7841C68A2A8A104F00DAF768 /* LargeTextButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C6892A8A104F00DAF768 /* LargeTextButtonRounded.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		7841C6822A8A043E00DAF768 /* SearchRideTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRideTileView.swift; sourceTree = "<group>"; };
 		7841C6852A8A065E00DAF768 /* LocationEntryButtonRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationEntryButtonRounded.swift; sourceTree = "<group>"; };
 		7841C6872A8A099900DAF768 /* SymbolButtonRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolButtonRounded.swift; sourceTree = "<group>"; };
+		7841C6892A8A104F00DAF768 /* LargeTextButtonRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTextButtonRounded.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			children = (
 				7841C6852A8A065E00DAF768 /* LocationEntryButtonRounded.swift */,
 				7841C6872A8A099900DAF768 /* SymbolButtonRounded.swift */,
+				7841C6892A8A104F00DAF768 /* LargeTextButtonRounded.swift */,
 			);
 			path = "Helper Views";
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			files = (
 				7841C6802A8A030000DAF768 /* SettingsView.swift in Sources */,
 				7841C67C2A8A01BE00DAF768 /* HomeView.swift in Sources */,
+				7841C68A2A8A104F00DAF768 /* LargeTextButtonRounded.swift in Sources */,
 				7841C6502A89FF8D00DAF768 /* ContentView.swift in Sources */,
 				7841C6862A8A065E00DAF768 /* LocationEntryButtonRounded.swift in Sources */,
 				7841C64E2A89FF8D00DAF768 /* DoIArrive_iOSApp.swift in Sources */,
