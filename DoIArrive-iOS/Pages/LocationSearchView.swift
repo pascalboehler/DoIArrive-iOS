@@ -42,7 +42,33 @@ struct LocationSearchView: View {
                     .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
                     Button {
                         locHelp.requestLocation()
-                        print("Your locaton: \(String(describing: locHelp.location?.latitude))")
+                        locHelp.lookUpCurrentLocation { placemark in
+                            guard let postalCode = placemark?.postalCode else {
+                                print("NO POSTALCODE")
+                                return
+                            }
+                            
+                            guard let street = placemark?.name else {
+                                print("No street")
+                                return
+                            }
+                            
+                            guard let city = placemark?.locality else {
+                                print("No city")
+                                return
+                            }
+                            
+                            guard let country = placemark?.country else {
+                                print("No country")
+                                return
+                            }
+                            
+                            let stringBuild = "\(street), \(postalCode) \(city), \(country)"
+                            
+                            textFieldText = stringBuild
+                            
+                            print(stringBuild)
+                        }
                     } label: {
                         Image(systemName: "location.viewfinder")
                     }
@@ -50,9 +76,6 @@ struct LocationSearchView: View {
                 .font(.system(size: 20))
                 .padding(EdgeInsets(top: 0, leading: 20, bottom: 15, trailing: 20))
                 ScrollView {
-                    if let userloc = locHelp.location {
-                        Text("Long: \(userloc.longitude)\nLat: \(userloc.latitude)")
-                    }
                     ForEach(searchResults) { result in
                         LocationSearchResultItemView(item: result)
                         
