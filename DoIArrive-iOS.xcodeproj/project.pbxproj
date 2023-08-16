@@ -26,6 +26,7 @@
 		7841C6882A8A099900DAF768 /* SymbolButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C6872A8A099900DAF768 /* SymbolButtonRounded.swift */; };
 		7841C68A2A8A104F00DAF768 /* LargeTextButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C6892A8A104F00DAF768 /* LargeTextButtonRounded.swift */; };
 		7841C68C2A8A134500DAF768 /* DropdownSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C68B2A8A134500DAF768 /* DropdownSelectorView.swift */; };
+		78D3E9F42A8CF63200DCC108 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D3E9F32A8CF63200DCC108 /* LocationHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		7841C6892A8A104F00DAF768 /* LargeTextButtonRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTextButtonRounded.swift; sourceTree = "<group>"; };
 		7841C68B2A8A134500DAF768 /* DropdownSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownSelectorView.swift; sourceTree = "<group>"; };
 		7841C68D2A8A158900DAF768 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		78CF04652A8CFA9000BBAC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		78D3E9F32A8CF63200DCC108 /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 		7841C64C2A89FF8D00DAF768 /* DoIArrive-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				78CF04652A8CFA9000BBAC5F /* Info.plist */,
+				78D3E9F22A8CF62000DCC108 /* Helper */,
 				782FE6A12A8A59F1008BDB4D /* Models */,
 				782FE69E2A8A5887008BDB4D /* Pages */,
 				7841C68E2A8A1CFD00DAF768 /* Styles */,
@@ -213,6 +218,14 @@
 			children = (
 			);
 			path = Styles;
+			sourceTree = "<group>";
+		};
+		78D3E9F22A8CF62000DCC108 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				78D3E9F32A8CF63200DCC108 /* LocationHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,6 +367,7 @@
 				782FE6A02A8A58AF008BDB4D /* LocationSearchView.swift in Sources */,
 				7841C6862A8A065E00DAF768 /* LocationEntryButtonRounded.swift in Sources */,
 				7841C64E2A89FF8D00DAF768 /* DoIArrive_iOSApp.swift in Sources */,
+				78D3E9F42A8CF63200DCC108 /* LocationHelper.swift in Sources */,
 				7841C68C2A8A134500DAF768 /* DropdownSelectorView.swift in Sources */,
 				7841C6832A8A043E00DAF768 /* SearchRideTileView.swift in Sources */,
 				782FE6A82A8A69BC008BDB4D /* SymbolButtonSwitchingView.swift in Sources */,
@@ -517,6 +531,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DoIArrive-iOS/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -555,6 +570,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DoIArrive-iOS/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
