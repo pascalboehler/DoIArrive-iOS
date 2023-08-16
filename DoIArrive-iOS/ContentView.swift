@@ -12,7 +12,7 @@ struct ContentView: View {
         TabView {
             HomeView()
                 .tabItem {
-                    Label("Home", systemImage: "bus.fill")
+                    Label("Home", systemImage: "house")
                 }
             
             NextRidesView()
