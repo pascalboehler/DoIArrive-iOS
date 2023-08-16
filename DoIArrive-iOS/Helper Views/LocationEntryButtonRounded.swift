@@ -11,9 +11,12 @@ struct LocationEntryButtonRounded: View {
     
     @State var textToShow: String = "From..."
     
+    @State var showPopOver: Bool = false
+    
     var body: some View {
         Button {
             print("Hello")
+            showPopOver = true
         } label: {
             VStack {
                 HStack {
@@ -27,6 +30,9 @@ struct LocationEntryButtonRounded: View {
                         .stroke(Color(red: 0.36, green: 0.34, blue: 0.34), lineWidth: 2)
                 )
             }
+        }
+        .popover(isPresented: $showPopOver) {
+            LocationSearchView()
         }
 
     }

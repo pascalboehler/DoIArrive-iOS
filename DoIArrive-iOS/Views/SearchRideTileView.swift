@@ -55,7 +55,6 @@ struct SearchRideTileView: View {
                 HStack {
                     DropdownSelectorView()
 
-                    Spacer()
                     DatePicker("", selection: $selectedStartDate)
                 }.padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 0))
                 
@@ -68,11 +67,12 @@ struct SearchRideTileView: View {
                 
             }
             .padding()
-            .foregroundColor(.white)
-            .background(Color(red: 0.12, green: 0.12, blue: 0.12))
-            .cornerRadius(20.0)
+            
         }
         .padding(EdgeInsets(top: 5, leading: 5, bottom: 5, trailing: 5))
+        .foregroundColor(.white)
+        .background(Color(red: 0.12, green: 0.12, blue: 0.12))
+        .cornerRadius(20.0)
     }
 }
 

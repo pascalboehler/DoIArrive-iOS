@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		782FE6A02A8A58AF008BDB4D /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FE69F2A8A58AF008BDB4D /* LocationSearchView.swift */; };
+		782FE6A32A8A5A11008BDB4D /* LocationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FE6A22A8A5A11008BDB4D /* LocationResult.swift */; };
+		782FE6A52A8A6739008BDB4D /* LocationSearchResultItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FE6A42A8A6739008BDB4D /* LocationSearchResultItemView.swift */; };
+		782FE6A82A8A69BC008BDB4D /* SymbolButtonSwitchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782FE6A72A8A69BC008BDB4D /* SymbolButtonSwitchingView.swift */; };
 		7841C64E2A89FF8D00DAF768 /* DoIArrive_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C64D2A89FF8D00DAF768 /* DoIArrive_iOSApp.swift */; };
 		7841C6502A89FF8D00DAF768 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C64F2A89FF8D00DAF768 /* ContentView.swift */; };
 		7841C6522A89FF8D00DAF768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7841C6512A89FF8D00DAF768 /* Assets.xcassets */; };
@@ -42,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		782FE69F2A8A58AF008BDB4D /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
+		782FE6A22A8A5A11008BDB4D /* LocationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationResult.swift; sourceTree = "<group>"; };
+		782FE6A42A8A6739008BDB4D /* LocationSearchResultItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultItemView.swift; sourceTree = "<group>"; };
+		782FE6A72A8A69BC008BDB4D /* SymbolButtonSwitchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolButtonSwitchingView.swift; sourceTree = "<group>"; };
 		7841C64A2A89FF8D00DAF768 /* DoIArrive-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DoIArrive-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7841C64D2A89FF8D00DAF768 /* DoIArrive_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoIArrive_iOSApp.swift; sourceTree = "<group>"; };
 		7841C64F2A89FF8D00DAF768 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +97,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		782FE69E2A8A5887008BDB4D /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				782FE69F2A8A58AF008BDB4D /* LocationSearchView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		782FE6A12A8A59F1008BDB4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				782FE6A22A8A5A11008BDB4D /* LocationResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		7841C6412A89FF8D00DAF768 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +137,8 @@
 		7841C64C2A89FF8D00DAF768 /* DoIArrive-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				782FE6A12A8A59F1008BDB4D /* Models */,
+				782FE69E2A8A5887008BDB4D /* Pages */,
 				7841C68E2A8A1CFD00DAF768 /* Styles */,
 				7841C6842A8A062800DAF768 /* Helper Views */,
 				7841C6812A8A042600DAF768 /* Views */,
@@ -176,6 +202,8 @@
 				7841C6872A8A099900DAF768 /* SymbolButtonRounded.swift */,
 				7841C6892A8A104F00DAF768 /* LargeTextButtonRounded.swift */,
 				7841C68B2A8A134500DAF768 /* DropdownSelectorView.swift */,
+				782FE6A42A8A6739008BDB4D /* LocationSearchResultItemView.swift */,
+				782FE6A72A8A69BC008BDB4D /* SymbolButtonSwitchingView.swift */,
 			);
 			path = "Helper Views";
 			sourceTree = "<group>";
@@ -317,14 +345,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782FE6A52A8A6739008BDB4D /* LocationSearchResultItemView.swift in Sources */,
 				7841C6802A8A030000DAF768 /* SettingsView.swift in Sources */,
 				7841C67C2A8A01BE00DAF768 /* HomeView.swift in Sources */,
 				7841C68A2A8A104F00DAF768 /* LargeTextButtonRounded.swift in Sources */,
+				782FE6A32A8A5A11008BDB4D /* LocationResult.swift in Sources */,
 				7841C6502A89FF8D00DAF768 /* ContentView.swift in Sources */,
+				782FE6A02A8A58AF008BDB4D /* LocationSearchView.swift in Sources */,
 				7841C6862A8A065E00DAF768 /* LocationEntryButtonRounded.swift in Sources */,
 				7841C64E2A89FF8D00DAF768 /* DoIArrive_iOSApp.swift in Sources */,
 				7841C68C2A8A134500DAF768 /* DropdownSelectorView.swift in Sources */,
 				7841C6832A8A043E00DAF768 /* SearchRideTileView.swift in Sources */,
+				782FE6A82A8A69BC008BDB4D /* SymbolButtonSwitchingView.swift in Sources */,
 				7841C67E2A8A029000DAF768 /* NextRidesView.swift in Sources */,
 				7841C6882A8A099900DAF768 /* SymbolButtonRounded.swift in Sources */,
 			);

@@ -9,10 +9,11 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
+        
         NavigationStack {
             VStack {
                 SearchRideTileView()
-                    .padding(EdgeInsets(top: 30, leading: 5, bottom: 10, trailing: 5))
+                    .padding(5.0)
                 Spacer()
             }
             .navigationTitle("Home")
