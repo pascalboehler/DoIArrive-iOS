@@ -27,7 +27,7 @@ struct SearchRideTileView: View {
                 .padding(EdgeInsets(top: 0, leading: 0, bottom: 5, trailing: 0))
                 
                 Divider()
-                    .background(Color(red: 0.25, green: 0.25, blue: 0.25, opacity: 0.46))
+                    .background(DarkDesign.stdDividerColor)
                 
                 ZStack {
                     VStack {
@@ -59,7 +59,7 @@ struct SearchRideTileView: View {
                 }.padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 0))
                 
                 Divider()
-                    .background(Color(red: 0.25, green: 0.25, blue: 0.25, opacity: 0.46))
+                    .background(DarkDesign.stdBGColor)
                 LargeTextButtonRounded(action: {
                     print("Hello")
                 }, label: "Search journey")
@@ -71,7 +71,7 @@ struct SearchRideTileView: View {
         }
         .padding(EdgeInsets(top: 5, leading: 5, bottom: 5, trailing: 5))
         .foregroundColor(.white)
-        .background(Color(red: 0.12, green: 0.12, blue: 0.12))
+        .background(DarkDesign.stdTileBGColor)
         .cornerRadius(20.0)
     }
 }

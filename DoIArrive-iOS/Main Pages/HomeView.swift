@@ -18,7 +18,7 @@ struct HomeView: View {
             }
             .navigationTitle("Home")
             .foregroundColor(.white)
-            .background(Color(red: 0.09, green: 0.09, blue: 0.09))
+            .background(DarkDesign.stdBGColor)
         }
         
     }

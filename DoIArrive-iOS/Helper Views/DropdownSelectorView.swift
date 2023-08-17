@@ -42,7 +42,7 @@ struct DropdownSelectorView: View {
                     }
                 }
                 .padding(EdgeInsets(top: 7, leading: 10, bottom: 7, trailing: 15))
-                .background(Color(red: 0.2, green: 0.2, blue: 0.21))
+                .background(DarkDesign.stdDropDownColor)
                 .cornerRadius(8)
             }
             

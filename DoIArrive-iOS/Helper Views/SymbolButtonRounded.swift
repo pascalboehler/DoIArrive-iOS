@@ -19,7 +19,7 @@ struct SymbolButtonRounded: View {
                 .font(.system(size: 20))
                 .padding(EdgeInsets(top: 15, leading: 11, bottom: 15, trailing: 11))
                 .foregroundColor(.white)
-                .background(Color(red: 0.09, green: 0.08, blue: 0.4))
+                .background(DarkDesign.stdButtonBlue)
                 .cornerRadius(14)
         }
     }

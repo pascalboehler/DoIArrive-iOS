@@ -1,34 +1,34 @@
 //
-//  SettingsView.swift
+//  SearchResultView.swift
 //  DoIArrive-iOS
 //
-//  Created by Pingu on 14.08.23.
+//  Created by Pingu on 17.08.23.
 //
 
 import SwiftUI
 
-struct SettingsView: View {
+struct SearchResultView: View {
     var body: some View {
         NavigationStack {
             HStack {
                 Spacer()
                 VStack {
                     Spacer()
-                    Text("Hello")
+                    Text("")
                         .padding(5.0)
                     Spacer()
                 }
                 Spacer()
             }
-            .navigationTitle("Settings")
+            .navigationTitle("Search results")
             .foregroundColor(.white)
             .background(DarkDesign.stdBGColor)
         }
     }
 }
 
-struct SettingsView_Previews: PreviewProvider {
+struct SearchResultView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView()
+        SearchResultView()
     }
 }

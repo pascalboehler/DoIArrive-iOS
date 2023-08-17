@@ -85,7 +85,7 @@ struct LocationSearchView: View {
                 //.background(Color(red: 0.1, green: 0.1, blue: 0.1))
                 .cornerRadius(20)
             }
-            .background(Color(red: 0.1, green: 0.1, blue: 0.1))
+            .background(DarkDesign.stdBGColor)
             .navigationTitle("From")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
