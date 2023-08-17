@@ -9,7 +9,21 @@ import SwiftUI
 
 struct SettingsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            HStack {
+                Spacer()
+                VStack {
+                    Spacer()
+                    Text("Hello")
+                        .padding(5.0)
+                    Spacer()
+                }
+                Spacer()
+            }
+            .navigationTitle("Settings")
+            .foregroundColor(.white)
+            .background(Color(red: 0.09, green: 0.09, blue: 0.09))
+        }
     }
 }
 
