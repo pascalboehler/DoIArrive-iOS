@@ -17,4 +17,7 @@ public struct DarkDesign {
     static public let stdDropDownColor: Color = Color(red: 0.2, green: 0.2, blue: 0.21)
     static public let stdButtonBlue: Color = Color(red: 0.09, green: 0.08, blue: 0.4)
     static public let stdBorderColor: Color = Color(red: 0.36, green: 0.34, blue: 0.34)
+    
+    static public let stdLightGrayTextColorTrans: Color = Color(red: 0.75, green: 0.75, blue: 0.75, opacity: 0.65)
+    static public let stdLightGrayTextColor: Color = Color(red: 0.75, green: 0.75, blue: 0.75)
 }

@@ -10,14 +10,14 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         NavigationStack {
-            HStack {
+            VStack {
                 Spacer()
-                VStack {
-                    Spacer()
-                    Text("Hello")
-                        .padding(5.0)
-                    Spacer()
-                }
+                    .frame(height: 20.0)
+                Button(action: {
+                    print("Hello World")
+                }, label: {
+                    ProfileTileView()
+                })
                 Spacer()
             }
             .navigationTitle("Settings")

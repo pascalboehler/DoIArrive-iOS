@@ -29,6 +29,8 @@
 		78AA43A32A8E47A70088A43B /* SearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AA43A22A8E47A70088A43B /* SearchResultView.swift */; };
 		78AA43A52A8E48390088A43B /* DarkDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AA43A42A8E48390088A43B /* DarkDesign.swift */; };
 		78D3E9F42A8CF63200DCC108 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D3E9F32A8CF63200DCC108 /* LocationHelper.swift */; };
+		78DD3C502A8F8581009A80E4 /* ProfileTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD3C4F2A8F8581009A80E4 /* ProfileTileView.swift */; };
+		78DD3C522A8F8866009A80E4 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD3C512A8F8866009A80E4 /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		78AA43A42A8E48390088A43B /* DarkDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkDesign.swift; sourceTree = "<group>"; };
 		78CF04652A8CFA9000BBAC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		78D3E9F32A8CF63200DCC108 /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		78DD3C4F2A8F8581009A80E4 /* ProfileTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTileView.swift; sourceTree = "<group>"; };
+		78DD3C512A8F8866009A80E4 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				782FE6A22A8A5A11008BDB4D /* LocationResult.swift */,
+				78DD3C512A8F8866009A80E4 /* UserProfile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				7841C6822A8A043E00DAF768 /* SearchRideTileView.swift */,
+				78DD3C4F2A8F8581009A80E4 /* ProfileTileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -370,6 +376,7 @@
 				7841C6802A8A030000DAF768 /* SettingsView.swift in Sources */,
 				7841C67C2A8A01BE00DAF768 /* HomeView.swift in Sources */,
 				7841C68A2A8A104F00DAF768 /* LargeTextButtonRounded.swift in Sources */,
+				78DD3C502A8F8581009A80E4 /* ProfileTileView.swift in Sources */,
 				782FE6A32A8A5A11008BDB4D /* LocationResult.swift in Sources */,
 				7841C6502A89FF8D00DAF768 /* ContentView.swift in Sources */,
 				782FE6A02A8A58AF008BDB4D /* LocationSearchView.swift in Sources */,
@@ -377,6 +384,7 @@
 				7841C64E2A89FF8D00DAF768 /* DoIArrive_iOSApp.swift in Sources */,
 				78D3E9F42A8CF63200DCC108 /* LocationHelper.swift in Sources */,
 				7841C68C2A8A134500DAF768 /* DropdownSelectorView.swift in Sources */,
+				78DD3C522A8F8866009A80E4 /* UserProfile.swift in Sources */,
 				7841C6832A8A043E00DAF768 /* SearchRideTileView.swift in Sources */,
 				782FE6A82A8A69BC008BDB4D /* SymbolButtonSwitchingView.swift in Sources */,
 				7841C67E2A8A029000DAF768 /* NextRidesView.swift in Sources */,
