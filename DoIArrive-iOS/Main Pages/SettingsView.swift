@@ -11,8 +11,6 @@ struct SettingsView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Spacer()
-                    .frame(height: 20.0)
                 Button(action: {
                     print("Hello World")
                 }, label: {
