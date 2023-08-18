@@ -13,7 +13,7 @@ struct HomeView: View {
         NavigationStack {
             VStack {
                 SearchRideTileView()
-                    .padding(5.0)
+                    .padding()
                 Spacer()
             }
             .navigationTitle("Home")

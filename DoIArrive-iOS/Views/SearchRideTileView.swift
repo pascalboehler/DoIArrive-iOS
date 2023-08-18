@@ -47,7 +47,7 @@ struct SearchRideTileView: View {
                             print("Swapped")
                         }
                         Spacer()
-                            .frame(width: 15)
+                            .frame(width: 10)
                     }
                 }
                 .padding(EdgeInsets(top: 05, leading: 0, bottom: 5, trailing: 0))
@@ -60,9 +60,11 @@ struct SearchRideTileView: View {
                 
                 Divider()
                     .background(DarkDesign.stdBGColor)
-                LargeTextButtonRounded(action: {
-                    print("Hello")
-                }, label: "Search journey")
+                NavigationLink(destination: {
+                    SearchResultView()
+                }, label: {
+                    LargeNavigationLinkButtonRounded(label: "Search journey")
+                })
                 .padding(EdgeInsets(top: 5, leading: 0, bottom: 0, trailing: 0))
                 
             }

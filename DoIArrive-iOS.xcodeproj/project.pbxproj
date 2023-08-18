@@ -31,6 +31,7 @@
 		78D3E9F42A8CF63200DCC108 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D3E9F32A8CF63200DCC108 /* LocationHelper.swift */; };
 		78DD3C502A8F8581009A80E4 /* ProfileTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD3C4F2A8F8581009A80E4 /* ProfileTileView.swift */; };
 		78DD3C522A8F8866009A80E4 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD3C512A8F8866009A80E4 /* UserProfile.swift */; };
+		78DD3C542A8F8FCB009A80E4 /* LargeNavigationLinkButtonLabelViewRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD3C532A8F8FCB009A80E4 /* LargeNavigationLinkButtonLabelViewRounded.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		78D3E9F32A8CF63200DCC108 /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
 		78DD3C4F2A8F8581009A80E4 /* ProfileTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTileView.swift; sourceTree = "<group>"; };
 		78DD3C512A8F8866009A80E4 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		78DD3C532A8F8FCB009A80E4 /* LargeNavigationLinkButtonLabelViewRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeNavigationLinkButtonLabelViewRounded.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 				7841C6852A8A065E00DAF768 /* LocationEntryButtonRounded.swift */,
 				7841C6872A8A099900DAF768 /* SymbolButtonRounded.swift */,
 				7841C6892A8A104F00DAF768 /* LargeTextButtonRounded.swift */,
+				78DD3C532A8F8FCB009A80E4 /* LargeNavigationLinkButtonLabelViewRounded.swift */,
 				7841C68B2A8A134500DAF768 /* DropdownSelectorView.swift */,
 				782FE6A42A8A6739008BDB4D /* LocationSearchResultItemView.swift */,
 				782FE6A72A8A69BC008BDB4D /* SymbolButtonSwitchingView.swift */,
@@ -381,6 +384,7 @@
 				7841C6502A89FF8D00DAF768 /* ContentView.swift in Sources */,
 				782FE6A02A8A58AF008BDB4D /* LocationSearchView.swift in Sources */,
 				7841C6862A8A065E00DAF768 /* LocationEntryButtonRounded.swift in Sources */,
+				78DD3C542A8F8FCB009A80E4 /* LargeNavigationLinkButtonLabelViewRounded.swift in Sources */,
 				7841C64E2A89FF8D00DAF768 /* DoIArrive_iOSApp.swift in Sources */,
 				78D3E9F42A8CF63200DCC108 /* LocationHelper.swift in Sources */,
 				7841C68C2A8A134500DAF768 /* DropdownSelectorView.swift in Sources */,

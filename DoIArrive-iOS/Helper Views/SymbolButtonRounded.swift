@@ -16,7 +16,7 @@ struct SymbolButtonRounded: View {
     var body: some View {
         Button(action: action) {
             Image(systemName: iconToShow)
-                .font(.system(size: 20))
+                .font(.system(size: 15))
                 .padding(EdgeInsets(top: 15, leading: 11, bottom: 15, trailing: 11))
                 .foregroundColor(.white)
                 .background(DarkDesign.stdButtonBlue)
