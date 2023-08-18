@@ -25,10 +25,7 @@ struct SearchRideTileView: View {
                     Spacer()
                 }
                 .padding(EdgeInsets(top: 0, leading: 0, bottom: 5, trailing: 0))
-                
-                Divider()
-                    .background(DarkDesign.stdDividerColor)
-                
+
                 ZStack {
                     VStack {
                         LocationEntryButtonRounded(textToShow: locationFrom)
@@ -56,16 +53,14 @@ struct SearchRideTileView: View {
                     DropdownSelectorView()
 
                     DatePicker("", selection: $selectedStartDate)
-                }.padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 0))
+                }
                 
-                Divider()
-                    .background(DarkDesign.stdBGColor)
                 NavigationLink(destination: {
                     SearchResultView()
                 }, label: {
                     LargeNavigationLinkButtonRounded(label: "Search journey")
                 })
-                .padding(EdgeInsets(top: 5, leading: 0, bottom: 0, trailing: 0))
+                .padding(EdgeInsets(top: 10, leading: 0, bottom: 0, trailing: 0))
                 
             }
             .padding()
