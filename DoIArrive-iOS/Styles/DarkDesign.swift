@@ -9,6 +9,9 @@ import Foundation
 import SwiftUI
 
 public struct DarkDesign {
+    
+    // TODO: Refactor code to move colors to xcasset file and call them in code
+    
     static public let stdBGColor: Color = Color(red: 0.09, green: 0.09, blue: 0.09)
     
     static public let stdTileBGColor: Color = Color(red: 0.12, green: 0.12, blue: 0.12)
