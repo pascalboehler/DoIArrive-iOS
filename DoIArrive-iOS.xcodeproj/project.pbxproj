@@ -32,6 +32,7 @@
 		78DD3C502A8F8581009A80E4 /* ProfileTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD3C4F2A8F8581009A80E4 /* ProfileTileView.swift */; };
 		78DD3C522A8F8866009A80E4 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD3C512A8F8866009A80E4 /* UserProfile.swift */; };
 		78DD3C542A8F8FCB009A80E4 /* LargeNavigationLinkButtonLabelViewRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD3C532A8F8FCB009A80E4 /* LargeNavigationLinkButtonLabelViewRounded.swift */; };
+		78DE85D02A9330B400AFFD3C /* TripSearchQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE85CF2A9330B400AFFD3C /* TripSearchQuery.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		78DD3C4F2A8F8581009A80E4 /* ProfileTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTileView.swift; sourceTree = "<group>"; };
 		78DD3C512A8F8866009A80E4 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		78DD3C532A8F8FCB009A80E4 /* LargeNavigationLinkButtonLabelViewRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeNavigationLinkButtonLabelViewRounded.swift; sourceTree = "<group>"; };
+		78DE85CF2A9330B400AFFD3C /* TripSearchQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSearchQuery.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			children = (
 				782FE6A22A8A5A11008BDB4D /* LocationResult.swift */,
 				78DD3C512A8F8866009A80E4 /* UserProfile.swift */,
+				78DE85CF2A9330B400AFFD3C /* TripSearchQuery.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				78AA43A32A8E47A70088A43B /* SearchResultView.swift in Sources */,
 				7841C6802A8A030000DAF768 /* SettingsView.swift in Sources */,
 				7841C67C2A8A01BE00DAF768 /* HomeView.swift in Sources */,
+				78DE85D02A9330B400AFFD3C /* TripSearchQuery.swift in Sources */,
 				7841C68A2A8A104F00DAF768 /* LargeTextButtonRounded.swift in Sources */,
 				78DD3C502A8F8581009A80E4 /* ProfileTileView.swift in Sources */,
 				782FE6A32A8A5A11008BDB4D /* LocationResult.swift in Sources */,
