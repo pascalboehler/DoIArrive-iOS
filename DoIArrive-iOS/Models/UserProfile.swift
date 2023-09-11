@@ -12,4 +12,5 @@ struct UserProfile {
     var userName: String
     var userEmail: String
     var profileImage: Image
+    var statusEmoji: String
 }

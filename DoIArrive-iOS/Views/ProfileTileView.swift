@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProfileTileView: View {
     
-    @State var userProfile: UserProfile = UserProfile(userName: "Ernst Müller", userEmail: "ernst@mueller.de", profileImage: Image("ProfilePicture"))
+    @State var userProfile: UserProfile = UserProfile(userName: "Ernst Müller", userEmail: "ernst@mueller.de", profileImage: Image("ProfilePicture"), statusEmoji: "🚇")
     
     var body: some View {
         HStack {
@@ -27,7 +27,7 @@ struct ProfileTileView: View {
                     .foregroundColor(DarkDesign.stdLightGrayTextColor)
             })
             Spacer()
-            Text("🚇")
+            Text(userProfile.statusEmoji)
                 .font(.system(size: 30.0))
             Spacer()
             Image(systemName: "chevron.right")
