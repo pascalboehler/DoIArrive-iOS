@@ -36,9 +36,9 @@ struct DropdownSelectorView: View {
                         .opacity(0.5)
                     switch (selector) {
                     case DepArrSel.arrival:
-                        Text("Arrival")
+                        Text("Arr.")
                     case DepArrSel.departure:
-                        Text("Departure")
+                        Text("Dep.")
                     }
                 }
                 .padding(EdgeInsets(top: 7, leading: 10, bottom: 7, trailing: 15))

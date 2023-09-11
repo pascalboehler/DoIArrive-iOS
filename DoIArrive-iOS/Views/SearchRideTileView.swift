@@ -47,7 +47,7 @@ struct SearchRideTileView: View {
                             .frame(width: 10)
                     }
                 }
-                .padding(EdgeInsets(top: 05, leading: 0, bottom: 5, trailing: 0))
+                .padding(.vertical, 5)
                 
                 HStack {
                     DropdownSelectorView()
@@ -66,7 +66,7 @@ struct SearchRideTileView: View {
             .padding()
             
         }
-        .padding(EdgeInsets(top: 5, leading: 5, bottom: 5, trailing: 5))
+        .padding(.all, 5)
         .foregroundColor(.white)
         .background(DarkDesign.stdTileBGColor)
         .cornerRadius(20.0)
